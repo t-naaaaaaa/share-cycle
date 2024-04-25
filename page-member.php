@@ -29,8 +29,8 @@ get_header();
             </div> -->
           <div class="sidebar-contents">
             <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member')); ?>">会員募集</a></div>
-            <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member/all/')); ?>">会員一覧</a>
-            </div>
+            <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member/all/')); ?>">会員一覧</a> </div>
+            <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member/all/detail/')); ?>">会員一覧詳細</a> </div>
             <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member/advisor/')); ?>">顧問一覧</div>
             <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member/memorandum/')); ?>">定款</a></div>
           </div>
@@ -40,7 +40,7 @@ get_header();
         <section class="first">
           <h2 class="first-title">会員募集</h2>
           <p class="first-text">
-            入会のお申し込みは　FAX　郵送　E-Mail　でお願い申し上げます。
+            入会のお申し込みは&nbsp;&nbsp;FAX&nbsp;&nbsp;郵送&nbsp;&nbsp;E-Mail&nbsp;&nbsp;でお願い申し上げます。
           </p>
           <p class="first-text">
             <a href="http://share-cycle.local/wp-content/uploads/2024/04/membership.xlsx" download class="first-download-link">申込書をダウンロード</a>

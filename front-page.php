@@ -57,7 +57,7 @@
 </section>
 
 <section class="whats">
-  <div onclick="location.href='/home/whats-share-cycle/'" class="introduction-contents ">
+  <button onclick="location.href='/home/whats-share-cycle/'" class="introduction-contents animation-button">
     <div class="introduction-sub-wrap">
       <div class="introduction-contents-img">
         <img src="<?php echo get_theme_file_uri('/img/share-bike-icon.png'); ?>" alt="" class="contents-img" />
@@ -73,7 +73,7 @@
 
       </div>
     </div>
-  </div>
+  </button>
 </section>
 <section class="graph">
   <div class="kv-graph">
@@ -141,7 +141,7 @@
     <h2 class="introduction-title">導入の手引き</h2>
     <div class="introduction-wrap ">
 
-      <button onclick="location.href='/home/coming-soon/'" class="introduction-contents contents-1 introduction-title2">
+      <button onclick="location.href='/home/coming-soon/'" class="introduction-contents contents-1 introduction-title2 animation-button">
         <div class="introduction-sub-wrap">
           <div class="introduction-contents-img">
             <img src="<?php echo get_theme_file_uri('/img/sannyuu_icon.png'); ?>" alt="" class="contents-img" />
@@ -157,7 +157,7 @@
           </div>
         </div>
       </button>
-      <button onclick="location.href='/home/coming-soon/'" class="introduction-contents contents-2 introduction-title2">
+      <button onclick="location.href='/home/coming-soon/'" class="introduction-contents contents-2 introduction-title2 animation-button">
         <div class="introduction-sub-wrap">
           <div class="introduction-contents-img">
             <img src="<?php echo get_theme_file_uri('/img/gov_icon.png'); ?>" alt="" class="contents-img" />
@@ -236,7 +236,7 @@
             <div class="example-contents">
               <img src="<?php echo get_theme_file_uri('/img/example-2.jpg'); ?>" alt="導入事例" class="example-contents-img" />
               <div class="example-contents-wrap">
-                <h3 class="example-contents-title">朝霞市</h3>
+                <h3 class="example-contents-title">官民連携</h3>
                 <p class="example-contents-text">
                   朝霞市民の交通利便性向上を目的に官民連携でステーション数を拡大してきました。
                 </p>
@@ -331,10 +331,11 @@
           <p>まだ記事がありません</p>
         <?php endif; ?>
         <?php wp_reset_postdata(); ?>
+        <div class="more-button-wrap notice-button">
+          <button onclick="location.href='/home/notice'" class="more-button btn">もっと見る</button>
+        </div>
       </div>
-      <div class="more-button-wrap notice-button">
-        <button onclick="location.href='/home/notice'" class="more-button btn">もっと見る</button>
-      </div>
+
     </div>
   </div>
 </section>

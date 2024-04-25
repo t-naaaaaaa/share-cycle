@@ -29,6 +29,9 @@ get_header();
           <div class="sidebar-contents-items">
             オープンデータ普及に向けて
           </div>
+          <div class="sidebar-contents-items">
+            自転車活用推進法
+          </div>
         </div>
       </div>
     </div>
@@ -60,6 +63,12 @@ get_header();
         <p class="first-text">
           利用者の利便性向上とサービス認知度向上を目指し国際的なシェアサイクルオープンデータ規格GBFSno国内普及を促進しています。<br />
           また、地域課題解決コンテスト「アーバンデータチャレンジ2023」において当協会協賛でGBFS特別賞を創設しています。
+        </p>
+      </section>
+      <section class="first page-first page-first-end">
+        <h2 class="first-title">自転車活用推進法</h2>
+        <p class="first-text">
+          <a href="<?php echo esc_url(home_url('/home/low')); ?>" class="first-text">自転車活用推進法については<span class="border-bottom">こちら</span></a>
         </p>
       </section>
     </div>

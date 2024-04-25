@@ -23,6 +23,7 @@ get_header();
       <div class="sidebar">
         <div class="sidebar-contents">
           <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member')); ?>">会員募集</a></div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member/all/')); ?>">会員一覧</a> </div>
           <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member/all/detail/')); ?>">会員一覧詳細</a> </div>
           <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member/advisor/')); ?>">顧問一覧</div>
           <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/member/memorandum/')); ?>">定款</a></div>
@@ -37,89 +38,88 @@ get_header();
         <h3 class="second-title">正会員</h3>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left">IHI運搬機械株式会社</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#iuk')); ?>" class="member-all-comp member-all-comp-left">IHI運搬機械株式会社</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#irc-tire')); ?>" class="member-all-comp member-all-comp-right">
               井上ゴム工業株式会社</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left"> OpenStreet株式会社</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#hellocycling')); ?>" class="member-all-comp member-all-comp-left"> OpenStreet株式会社</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#c-case')); ?>" class="member-all-comp member-all-comp-right">
               Creative Case by YOHO</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left"> サイカパーキング株式会社</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#cyca')); ?>" class="member-all-comp member-all-comp-left"> サイカパーキング株式会社</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#cdi')); ?>" class="member-all-comp member-all-comp-right">
               株式会社シーディアイ</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#sinanen-mplus')); ?>" class="member-all-comp member-all-comp-left">
               シナネンモビリティPLUS株式会社</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#takedasangyo')); ?>" class="member-all-comp member-all-comp-right">
               武田産業株式会社</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left"> ダホン　ノースアメリカ</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#dahon')); ?>" class="member-all-comp member-all-comp-left"> ダホン　ノースアメリカ</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#cfk')); ?>" class="member-all-comp member-all-comp-right">
               中央復建コンサルタンツ株式会社</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left"> 蔦井株式会社</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#tsutai')); ?>" class="member-all-comp member-all-comp-left"> 蔦井株式会社</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
-              株式会社T-TRIKE</a>
+            <a href="" class="member-all-comp member-all-comp-right">株式会社T-TRIKE</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left"> 東武不動産株式会社</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#tobu-re')); ?>" class="member-all-comp member-all-comp-left"> 東武不動産株式会社</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#d-bikeshare')); ?>" class="member-all-comp member-all-comp-right">
               株式会社ドコモ・バイクシェア</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left"> 日本サンサイクル株式会社</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#sancycle')); ?>" class="member-all-comp member-all-comp-left"> 日本サンサイクル株式会社</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#jafs99')); ?>" class="member-all-comp member-all-comp-right">
               日本駐車場救急サービス株式会社</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left"> 株式会社福住</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#fukuju')); ?>" class="member-all-comp member-all-comp-left"> 株式会社福住</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#morris-corp')); ?>" class="member-all-comp member-all-comp-right">
               モーリスコーポレーション株式会社</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left"> 株式会社Luup</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#luup')); ?>" class="member-all-comp member-all-comp-left"> 株式会社Luup</a>
           </p>
         </div>
       </section>
@@ -127,39 +127,39 @@ get_header();
         <h3 class="second-title">賛助会員</h3>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left"> NCD株式会社</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#ncd')); ?>" class="member-all-comp member-all-comp-left"> NCD株式会社</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#gpsupport')); ?>" class="member-all-comp member-all-comp-right">
               株式会社グローバルパーキングサポート</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#jichuko')); ?>" class="member-all-comp member-all-comp-left">
               一般社団法人自転車駐車場工業会</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#tacy')); ?>" class="member-all-comp member-all-comp-right">
               株式会社高見沢サイバネティックス</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left"> 株式会社ドーコン</a>
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#docon')); ?>" class="member-all-comp member-all-comp-left"> 株式会社ドーコン</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#purepa')); ?>" class="member-all-comp member-all-comp-right">
               一般社団法人日本自走式駐車場工業会</a>
           </p>
         </div>
         <div class="member-all-wrap">
           <p class="second-text text-1">
-            <a href="" class="member-all-comp member-all-comp-left">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#gia-jpb')); ?>" class="member-all-comp member-all-comp-left">
               一般社団法人日本パーキングビジネス協会</a>
           </p>
           <p class="second-text text-2 member-all-comp-text">
-            <a href="" class="member-all-comp member-all-comp-right">
+            <a href="<?php echo esc_url(home_url('/home/member/all/detail#panasonic')); ?>" class="member-all-comp member-all-comp-right">
               パナソニックサイクルテック株式会社</a>
           </p>
         </div>

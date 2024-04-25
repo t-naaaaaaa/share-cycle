@@ -236,7 +236,7 @@
             <div class="example-contents">
               <img src="<?php echo get_theme_file_uri('/img/example-2.jpg'); ?>" alt="導入事例" class="example-contents-img" />
               <div class="example-contents-wrap">
-                <h3 class="example-contents-title">朝霞市</h3>
+                <h3 class="example-contents-title">官民連携</h3>
                 <p class="example-contents-text">
                   朝霞市民の交通利便性向上を目的に官民連携でステーション数を拡大してきました。
                 </p>
@@ -331,10 +331,11 @@
           <p>まだ記事がありません</p>
         <?php endif; ?>
         <?php wp_reset_postdata(); ?>
+        <div class="more-button-wrap notice-button">
+          <button onclick="location.href='/home/notice'" class="more-button btn">もっと見る</button>
+        </div>
       </div>
-      <div class="more-button-wrap notice-button">
-        <button onclick="location.href='/home/notice'" class="more-button btn">もっと見る</button>
-      </div>
+
     </div>
   </div>
 </section>

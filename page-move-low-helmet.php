@@ -118,7 +118,7 @@ get_header();
         </p>
       </section>
       <div class="page-quote">
-        <a href="https://www.keishicho.metro.tokyo.lg.jp/kotsu/jikoboshi/bicycle/menu/helmet.html">引用&emsp;https://www.keishicho.metro.tokyo.lg.jp/kotsu/jikoboshi/bicycle/menu/helmet.html</a>
+        <a href="https://www.keishicho.metro.tokyo.lg.jp/kotsu/jikoboshi/bicycle/menu/helmet.html">引用&emsp;<br />https://www.keishicho.metro.tokyo.lg.jp/jikoboshi/bicycle/menu/helmet.html</a>
       </div>
     </div>
   </div>

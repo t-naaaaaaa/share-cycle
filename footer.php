@@ -3,8 +3,8 @@
         <div class="footer-title-wrap">
           <h3 class="footer-title-sub">一般社団法人</h3>
           <h2 class="footer-title">日本シェアサイクル協会</h2>
-          <p class="footer-tel">0336636281</p>
-          <p class="footer-address">東京都中央区日本橋小網町7-2ぺんてるビル７階</p>
+          <p class="footer-tel">03-3663-6281</p>
+          <p class="footer-address">東京都中央区日本橋小網町7-2ぺんてるビル7階</p>
         </div>
         <!-- <div class="footer-advertisement-wrap">
           <div class="footer-advertisement advertisement-1">出版物広告</div>
@@ -16,9 +16,9 @@
               <li class="footer-nav-item">
                 <a href="<?php echo esc_url(home_url('/home#introduction')); ?>" class="footer-nav-link">導入の手引き</a>
               </li>
-              <li class="footer-nav-item">
+              <!-- <li class="footer-nav-item">
                 <a href="<?php echo esc_url(home_url('/home#move')); ?>" class="footer-nav-link">国や自治体の動き</a>
-              </li>
+              </li> -->
               <li class="footer-nav-item">
                 <a href="<?php echo esc_url(home_url('/home/notice')); ?>" class="footer-nav-link">お知らせ</a>
               </li>

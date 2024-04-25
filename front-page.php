@@ -57,7 +57,7 @@
 </section>
 
 <section class="whats">
-  <div onclick="location.href='/home/whats-share-cycle/'" class="introduction-contents ">
+  <button onclick="location.href='/home/whats-share-cycle/'" class="introduction-contents animation-button">
     <div class="introduction-sub-wrap">
       <div class="introduction-contents-img">
         <img src="<?php echo get_theme_file_uri('/img/share-bike-icon.png'); ?>" alt="" class="contents-img" />
@@ -73,7 +73,7 @@
 
       </div>
     </div>
-  </div>
+  </button>
 </section>
 <section class="graph">
   <div class="kv-graph">
@@ -141,7 +141,7 @@
     <h2 class="introduction-title">導入の手引き</h2>
     <div class="introduction-wrap ">
 
-      <button onclick="location.href='/home/coming-soon/'" class="introduction-contents contents-1 introduction-title2">
+      <button onclick="location.href='/home/coming-soon/'" class="introduction-contents contents-1 introduction-title2 animation-button">
         <div class="introduction-sub-wrap">
           <div class="introduction-contents-img">
             <img src="<?php echo get_theme_file_uri('/img/sannyuu_icon.png'); ?>" alt="" class="contents-img" />
@@ -157,7 +157,7 @@
           </div>
         </div>
       </button>
-      <button onclick="location.href='/home/coming-soon/'" class="introduction-contents contents-2 introduction-title2">
+      <button onclick="location.href='/home/coming-soon/'" class="introduction-contents contents-2 introduction-title2 animation-button">
         <div class="introduction-sub-wrap">
           <div class="introduction-contents-img">
             <img src="<?php echo get_theme_file_uri('/img/gov_icon.png'); ?>" alt="" class="contents-img" />

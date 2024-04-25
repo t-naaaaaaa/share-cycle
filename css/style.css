@@ -320,6 +320,10 @@ body {
   color: #fff !important;
 }
 
+@media screen and (max-width: 1279px) {
+  
+
+
 .animation-button {
   transition: transform 0.4s;
 }
@@ -327,7 +331,7 @@ body {
 .animation-button:hover {
   transform: scale(1.05);
 }
-
+}
 /* kv */
 
 .kv-info {
@@ -674,6 +678,7 @@ body {
   .introduction-contents:first-child{
     margin-left: 0;
   }
+  
 }
 
 .introduction-sub-wrap {
@@ -832,6 +837,11 @@ body {
   transform: rotate(45deg);
 }
 
+@media screen and (max-width: 1279px) {
+  .btnlinestretches5{
+    display: none;
+  }
+}
 /* ホバー時にアニメーションを適用 */
 .introduction-contents:hover .btnlinestretches5::before {
   animation: arrowlong01 2s ease infinite;
@@ -2120,6 +2130,9 @@ justify-content: center;
   .move-first {
     padding-bottom: 40px;
   }
+}
+.border-bottom{
+  border-bottom: #000 1px solid;
 }
 
 .advisor-wrap {

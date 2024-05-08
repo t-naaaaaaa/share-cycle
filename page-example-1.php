@@ -23,9 +23,10 @@ get_header();
     <div class="sidebar-wrap">
       <div class="sidebar">
         <div class="sidebar-contents">
-          <div class="sidebar-contents-items">はじめに</div>
-          <div class="sidebar-contents-items">サービス概要</div>
-          <div class="sidebar-contents-items">導入事例・活用事例</div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-1/')); ?>">狭小地のポート化（マンション・軒先等）</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-2/')); ?>">官民連携</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-3/')); ?>">観光利用・フェリー連携</div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-4/')); ?>">複数事業者混在事例</a></div>
         </div>
       </div>
     </div>
@@ -40,31 +41,11 @@ get_header();
           海外では、シェアサイクルの普及が地域の不動産価値の向上に貢献しているという研究結果も出ており、例えば従来は遠かった鉄道駅や主要施設、地域商店等へのアクセスがシェアサイクル設置により改善されるなど、その設置メリットは大きいです。<br />
           狭小地へのシェアサイクルステーション設置は単に遊休用地の収益化という直接的な収益効果を超えて、不動産価値の向上や地域経済の活性化など、街全体への好循環を生み出す可能性を秘めています。
         </p>
-        <img src="<?php echo get_theme_file_uri('/img/example-1-1.png'); ?>" alt="" class="first-img" />
-        <img src="<?php echo get_theme_file_uri('/img/example-1-2.png'); ?>" alt="" class="first-img" />
+        <div class="first-img-wrap">
+          <img src="<?php echo get_theme_file_uri('/img/example-1-1.png'); ?>" alt="" class="first-img" />
+          <img src="<?php echo get_theme_file_uri('/img/example-1-2.png'); ?>" alt="" class="first-img" />
+        </div>
       </section>
-      <!-- <section class="second">
-            <h3 class="second-title">自治体向け</h3>
-            <p class="second-text text-1">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-            <p class="second-text text-2">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-          </section>
-          <section class="second second-end">
-            <h3 class="second-title">自治体向け</h3>
-            <p class="second-text text-1">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-            <p class="second-text text-2">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-          </section> -->
     </div>
   </div>
 </main>

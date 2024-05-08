@@ -30,6 +30,7 @@ function my_script_init()
 
   // PHPでデータをJavaScriptに渡す
   $image_paths = [
+    get_theme_file_uri('/img/Xshare-cycle-day.png'),
     get_theme_file_uri('/img/docomo_big_new.jpg'),
     get_theme_file_uri('/img/momochari_big_new.jpg'),
     get_theme_file_uri('/img/Luup.jpeg'),
@@ -42,6 +43,7 @@ add_action('wp_enqueue_scripts', 'my_script_init');
 
 // functions.php
 $image_paths = [
+  get_theme_file_uri('/img/Xshare-cycle-day.png'),
     get_theme_file_uri('/img/docomo_big_new.jpg'),
     get_theme_file_uri('/img/momochari_big_new.jpg'),
     get_theme_file_uri('/img/Luup.jpeg'),

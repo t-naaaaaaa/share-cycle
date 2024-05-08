@@ -88,9 +88,9 @@
             <li class="nav_item">
               <a href="<?php echo esc_url(home_url('/home#introduction')); ?>" class="header-nav-link">導入の手引き</a>
             </li>
-            <li class="nav_item">
+            <!-- <li class="nav_item">
               <a href="<?php echo esc_url(home_url('/home#move')); ?>" class="header-nav-link">国や自治体の動き</a>
-            </li>
+            </li> -->
             <li class="nav_item">
               <a href="<?php echo esc_url(home_url('/home/member/all/')); ?>" class="header-nav-link">会員一覧</a>
             </li>

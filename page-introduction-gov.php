@@ -23,8 +23,8 @@ get_header();
     <div class="sidebar-wrap">
       <div class="sidebar">
         <div class="sidebar-contents">
-          <div class="sidebar-contents-items">コンセプトを固める</div>
-          <div class="sidebar-contents-items">
+          <div class="sidebar-contents-items">導入に向けた手順</div>
+          <!-- <div class="sidebar-contents-items">
             シェアサイクルは儲からない
           </div>
           <div class="sidebar-contents-items">立地環境の徹底分析</div>
@@ -36,29 +36,30 @@ get_header();
           <div class="sidebar-contents-items">万一の備えを確実に</div>
           <div class="sidebar-contents-items">
             信頼できるパートナーと確実な補償制度
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
     <div class="section-wrap">
       <section class="first">
         <h2 class="first-title">
-          自治体担当者のためのシェアサイクル導入の手引き
+          シェアサイクル事業の導入に向けた手順
         </h2>
-        <img src="<?php echo get_theme_file_uri('/img/jichitai_photo.jpeg'); ?>" alt="" class="first-img" />
       </section>
-      <section class="second">
-        <h3 class="second-title">コンセプトを固める</h3>
+      <section class="second second-end">
+        <h3 class="second-title">導入に向けた手順</h3>
         <p class="second-text text-1">
-          自転車活用推進計画が閣議決定され、自転車活用はいよいよ自治体の具体策が求められる段階となりました。特に、市民の新たな移動手段としてシェアサイクルが、過度のクルマ依存からの脱却や観光振興のツールとして注目されています。
+          シェアサイクル事業の導入に向けた手順の一例として、地方公共団体と民間事業者が連携して事業
+          を行う場合の例を下図に示します。
         </p>
         <p class="second-text text-2">
-          まず、なんのために導入するのかを明確にしましょう。欧米の先進事例を見ると、多くの都市が「市内の移動の選択肢を増やす」というはっきりとした目標を掲げ、公共のバスや地下鉄に「公共の自転車」を加えるために一定の支出を認めています。電車やバスを乗り継ぐと遠回りで面倒な目的地にも、自転車であれば便利に辿り着けます。マイ自転車であれば駐輪し、帰路も乗って帰らねばなりませんが、シェアサイクルなら他の手段が自由に選べます。つまり移動の選択肢を拡げることはQOL（quality
-          of
-          life:生活の質）の向上にもつながります。健康、環境、観光への貢献、交通渋滞や事故の減少、温室効果ガス削減などは結果としてもたらされるものであって、それぞれが単独の目的ではないと考えて良いのではないでしょうか。
+          シェアサイクルは様々な社会的課題に対応するための公共性を有しています。そのため、地域の課題に対してシェアサイクルがその解決手段の一つとなり得るかを確認し、シェアサイクルの導入目的を明確にした上で、事業規模や事業スキームなどの検討を通じた導入要否の検討、事業者の選定、実施に向けた準備などを検討することが重要です。
         </p>
+        <p class="second-text text-2">
+          また、導入要否の検討や合意形成の段階などでは、必要に応じて、他都市・事業者との意見交換を行うことも有効です。</p>
+        <img src="<?php echo get_theme_file_uri('/img/introduciton-img.png'); ?>" alt="" class="second-img" />
       </section>
-      <section class="second">
+      <!-- <section class="second">
         <h3 class="second-title">シェアサイクルは儲からない</h3>
         <p class="second-text text-1">
           手軽に使いたくなる料金のシェアサイクルは、儲かるどころか維持することすらできません。しかし、利用料を高くすると利用者が減って成り立ちません。一時期、急成長した中国式のシェアサイクルは、莫大なデポジット（預かり保証金）の運用で拡大しましたが、破綻した場合に返却されないことがあったためにデポジット制度が禁止され、事業を継続できない会社が続出しました。
@@ -105,7 +106,7 @@ get_header();
         <p class="second-text text-2">
           最近、貸し出し対象の自転車に付与する損害賠償保険が開発されましたが、それだけでも１台年間２万円弱のコストがかかります。必要最低限度の費用を捻出するため、パリでは広告看板収入を、バルセロナでは駐車場料金を、ロンドンやニューヨークではネーミングライツを、その他の地域でも自治体が民間の協力を募って、新しい交通インフラとしてシェアサイクルを運営しています。バスなどへの補助金と同じ扱いで予算を割り当てているところも少なくありません。公共が設置し、民間に経営を委託するというバランスのとれたパートナーシップの構築のために、日本シェアサイクル協会の広範な連絡網と内外の知見をぜひお役立てください。
         </p>
-      </section>
+      </section> -->
     </div>
   </div>
 </main>

@@ -3,7 +3,7 @@
   <div class="container" id="image-slider">
     <?php foreach ($image_paths as $image_path) : ?>
       <div class="image-item">
-        <img src="<?php echo $image_path; ?>" alt="画像">
+        <img src="<?php echo $image_path; ?>" alt="画像" class="kv-img">
       </div>
     <?php endforeach; ?>
   </div>
@@ -57,44 +57,212 @@
 </section>
 
 <section class="whats">
-  <button onclick="location.href='/home/whats-share-cycle/'" class="introduction-contents animation-button">
-    <div class="introduction-sub-wrap">
-      <div class="introduction-contents-img">
-        <img src="<?php echo get_theme_file_uri('/img/share-bike-icon.png'); ?>" alt="" class="contents-img" />
-      </div>
-      <div class="contents-wrap">
-        <div class="introduction-contents-title">What's<br class="contents-blank" />シェアサイクル？</div>
-        <p class="introduction-contents-text">
-          はじめての方はスタートアップガイドからご覧くだああああああああああああああああああああああああああああああああああああああああ
-        </p>
-        <div class="move-arrow-wrap">
-          <a href="#" class="btnlinestretches5"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
-        </div>
-
+  <button onclick="location.href='/home/whats-share-cycle/'" class=" animation-button">
+    <div class="what-wrap">
+      <div class="whats-contents-img">
+        <img src="<?php echo get_theme_file_uri('/img/1.png'); ?>" alt="" class="whats-img" />
       </div>
     </div>
   </button>
 </section>
+
 <section class="graph">
+  <h2 class="kv-graph-title scroll-in section-sub-wrap">数字で見るシェアサイクル</h2>
+  <div class="kv-table-wrap">
+    <div class="kv-table-sub-wrap">
+      <table class="kv-table scroll-in section-sub-wrap">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col">ポート数</th>
+            <th scope="col">収容数</th>
+            <th scope="col">自転車台数</th>
+            <th scope="col">利用回数</th>
+          </tr>
+        </thead>
+        <tbody class="scroll-in">
+          <tr class="scroll-in">
+            <th>東京都</th>
+            <td data-label="ポート数" class="kv-table-text">
+              7,620
+            </td>
+            <td data-label="収容数" class="kv-table-price">40,340</td>
+            <td data-label="自転車台数" class="kv-table-price">34,300</td>
+            <td data-label="利用回数" class="kv-table-price">15,570,000</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="kv-table scroll-in section-sub-wrap">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col">ポート数</th>
+            <th scope="col">収容数</th>
+            <th scope="col">自転車台数</th>
+            <th scope="col">利用回数</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>23区</th>
+            <td data-label="ポート数" class="kv-table-text">6,720</td>
+            <td data-label="収容数" class="kv-table-price">33,340</td>
+            <td data-label="自転車台数" class="kv-table-price">30,100</td>
+            <td data-label="利用回数" class="kv-table-price">154,30,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="kv-table-sub-wrap">
+      <table class="kv-table scroll-in section-sub-wrap">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col">ポート数</th>
+            <th scope="col">収容数</th>
+            <th scope="col">自転車台数</th>
+            <th scope="col">利用回数</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>一都三県</th>
+            <td data-label="ポート数" class="kv-table-text">11,300</td>
+            <td data-label="収容数" class="kv-table-price">65,340</td>
+            <td data-label="自転車台数" class="kv-table-price">50,600</td>
+            <td data-label="利用回数" class="kv-table-price">17,870,000</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="kv-table scroll-in section-sub-wrap">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col">ポート数</th>
+            <th scope="col">収容数</th>
+            <th scope="col">自転車台数</th>
+            <th scope="col">利用回数</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>札幌</th>
+            <td data-label="ポート数" class="kv-table-text">117</td>
+            <td data-label="収容数" class="kv-table-price">1,071</td>
+            <td data-label="自転車台数" class="kv-table-price">1,100</td>
+            <td data-label="利用回数" class="kv-table-price">950,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="kv-table-wrap">
+    <div class="kv-table-sub-wrap">
+      <table class="kv-table scroll-in section-sub-wrap">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col">ポート数</th>
+            <th scope="col">収容数</th>
+            <th scope="col">自転車台数</th>
+            <th scope="col">利用回数</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>仙台
+            </th>
+            <td data-label="ポート数" class="kv-table-text">230</td>
+            <td data-label="収容数" class="kv-table-price">500</td>
+            <td data-label="自転車台数" class="kv-table-price">1,160</td>
+            <td data-label="利用回数" class="kv-table-price">1,100,000</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="kv-table scroll-in section-sub-wrap">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col">ポート数</th>
+            <th scope="col">収容数</th>
+            <th scope="col">自転車台数</th>
+            <th scope="col">利用回数</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>名古屋</th>
+            <td data-label="ポート数" class="kv-table-text">1,145</td>
+            <td data-label="収容数" class="kv-table-price">6,965</td>
+            <td data-label="自転車台数" class="kv-table-price">2,838</td>
+            <td data-label="利用回数" class="kv-table-price">1,080,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="kv-table-sub-wrap">
+      <table class="kv-table scroll-in section-sub-wrap">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col">ポート数</th>
+            <th scope="col">収容数</th>
+            <th scope="col">自転車台数</th>
+            <th scope="col">利用回数</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>大阪</th>
+            <td data-label="ポート数" class="kv-table-text">1,682</td>
+            <td data-label="収容数" class="kv-table-price">6,965</td>
+            <td data-label="自転車台数" class="kv-table-price">6,200</td>
+            <td data-label="利用回数" class="kv-table-price">1,720,000</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="kv-table scroll-in section-sub-wrap">
+        <thead>
+          <tr>
+            <td></td>
+            <th scope="col">ポート数</th>
+            <th scope="col">収容数</th>
+            <th scope="col">自転車台数</th>
+            <th scope="col">利用回数</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>広島</th>
+            <td data-label="ポート数" class="kv-table-text">252</td>
+            <td data-label="収容数" class="kv-table-price">518</td>
+            <td data-label="自転車台数" class="kv-table-price">1,160</td>
+            <td data-label="利用回数" class="kv-table-price">900,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<!-- <section class="graph">
   <div class="kv-graph">
+
     <div class="kv-graph-wrap graph-wrap-1">
-      <div class="scroll-in kv-graph-main graph-main-1">
+      <div class="scroll-in kv-graph-main graph-main-3">
         <div class="kv-circle">
           <div class="pie">
             <span class="pie-span1">ポート数 </span><span class="pie-span2">6,406</span>
-            <!-- <span class="pie-span3">箇所</span> -->
+
           </div>
         </div>
         <div class="kv-graph-title"></div>
       </div>
-      <div class="scroll-in kv-graph-main graph-main-reverse">
+      <div class="scroll-in kv-graph-main graph-main-3">
         <div class="kv-circle">
           <div class="pie">
             <span class="pie-span1">ユーザー数</span><span class="pie-span2">500,0000</span>
-            <!-- <span class="pie-span3">ユーザー</span> -->
           </div>
         </div>
-        <!-- <div class="kv-graph-title">ユーザー数</div> -->
       </div>
     </div>
     <div class="kv-graph-wrap graph-wrap-2">
@@ -103,24 +271,21 @@
           <div class="pie">
             <span class="pie-span1">導入都道府県数</span><span class="pie-span2">
               69</span>
-            <!-- <span class="pie-span3">都道府県</span> -->
           </div>
         </div>
-        <!-- <div class="kv-graph-title">導入都道府県数</div> -->
       </div>
-      <div class="scroll-in kv-graph-main graph-main-reverse graph-main-4">
+      <div class="scroll-in kv-graph-main graph-main-reverse graph-main-3">
         <div class="kv-circle">
           <div class="pie">
             <span class="pie-span1">導入自治体数</span><span class="pie-span2">166</span>
-            <!-- <span class="pie-span3">自治体</span> -->
           </div>
         </div>
-        <!-- <div class="kv-graph-title title-4">導入自治体数</div> -->
       </div>
     </div>
   </div>
-</section>
-<div class="kv-graph-source-wrap">
+</section> -->
+<!-- 出典を入れる -->
+<!-- <div class="kv-graph-source-wrap">
   <p class="kv-graph-source">
     ※ 会員6社<br />
     ※ GBFS データ公開済事業者について<br />
@@ -128,7 +293,7 @@
 
   </p>
 
-</div>
+</div> -->
 <!-- <section class="whats">
   <div class="whats-wrap">
     <button class="whats-title-button btn" onclick="location.href='/home/whats-share-cycle'">
@@ -149,15 +314,15 @@
           <div class="contents-wrap">
             <div class="introduction-contents-title introduction-contents-title2">参入事業者向け</div>
             <p class="introduction-contents-text">
-              はじめての方はスタートアップガイドからご覧くだあああああああああああああああああああああああああああああああああああああああああ
+              事業シナジー、新たな収益源としてシェアサイクル事業への参入手引き
             </p>
-            <div class="move-arrow-wrap">
+            <!-- <div class="move-arrow-wrap">
               <a href="#" class="btnlinestretches5"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
-            </div>
+            </div> -->
           </div>
         </div>
       </button>
-      <button onclick="location.href='/home/coming-soon/'" class="introduction-contents contents-2 introduction-title2 animation-button">
+      <button onclick="location.href='/home/introduction/gov/'" class="introduction-contents contents-2 introduction-title2 animation-button">
         <div class="introduction-sub-wrap">
           <div class="introduction-contents-img">
             <img src="<?php echo get_theme_file_uri('/img/gov_icon.png'); ?>" alt="" class="contents-img" />
@@ -165,11 +330,11 @@
           <div class="contents-wrap">
             <div class="introduction-contents-title">自治体向け</div>
             <p class="introduction-contents-text">
-              はじめての方はスタートアップガイドからご覧くだああああああああああああああああああああああああああああああああああああああああ
+              シェアサイクル事業の導入検討を開始する場合に地域で準備しておくべき事項
             </p>
-            <div class="move-arrow-wrap">
+            <!-- <div class="move-arrow-wrap">
               <a href="#" class="btnlinestretches5"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
-            </div>
+            </div> -->
           </div>
         </div>
       </button>
@@ -218,8 +383,8 @@
             <li id="list4"></li>
           </ul> -->
       <div id="slider" class="slider slider1">
-        <div class="content content1">
-          <a href="<?php echo esc_url(home_url('/home/example-1/')); ?>">
+        <div class="content content1 animation-button">
+          <a href="<?php echo esc_url(home_url('/home/example/example-1/')); ?>">
             <div class="example-contents">
               <img src="<?php echo get_theme_file_uri('/img/example-1.jpg'); ?>" alt="導入事例" class="example-contents-img" />
               <div class="example-contents-wrap">
@@ -231,8 +396,8 @@
             </div>
           </a>
         </div>
-        <div class="content content2">
-          <a href="<?php echo esc_url(home_url('/home/example-2/')); ?>">
+        <div class="content content2 animation-button">
+          <a href="<?php echo esc_url(home_url('/home/example/example-2/')); ?>">
             <div class="example-contents">
               <img src="<?php echo get_theme_file_uri('/img/example-2.jpg'); ?>" alt="導入事例" class="example-contents-img" />
               <div class="example-contents-wrap">
@@ -244,8 +409,8 @@
             </div>
           </a>
         </div>
-        <div class="content content3">
-          <a href="<?php echo esc_url(home_url('/home/example-3/')); ?>">
+        <div class="content content3 animation-button">
+          <a href="<?php echo esc_url(home_url('/home/example/example-3/')); ?>">
             <div class="example-contents">
               <img src="<?php echo get_theme_file_uri('/img/example-3.png'); ?>" alt="導入事例" class="example-contents-img" />
               <div class="example-contents-wrap">
@@ -259,8 +424,8 @@
             </div>
           </a>
         </div>
-        <div class="content content4">
-          <a href="<?php echo esc_url(home_url('/home/example-4/')); ?>">
+        <div class="content content4 animation-button">
+          <a href="<?php echo esc_url(home_url('/home/example/example-4/')); ?>">
             <div class="example-contents">
               <img src="<?php echo get_theme_file_uri('/img/example-4.png'); ?>" alt="導入事例" class="example-contents-img" />
               <div class="example-contents-wrap">
@@ -275,7 +440,7 @@
         </div>
       </div>
       <div class="more-button-wrap">
-        <button onclick="location.href='/home/coming-soon/'" class="more-button btn">事例一覧</button>
+        <button onclick="location.href='/home/example'" class="more-button btn">事例一覧</button>
       </div>
     </div>
   </div>
@@ -288,9 +453,9 @@
 
       <!-- ヘルメット着用 -->
       <div class="notice-contents">
-        <button onclick="location.href='/home/helmet'" class=" move-helmet-title notice-contents-wrap">
-          自転車に乗る際はヘルメットを着用しましょう
-        </button>
+        <!-- <button onclick="location.href='/home/helmet'" class=" move-helmet-title notice-contents-wrap notice-helmet">
+          <p class="notice-helmet-text">当協会はヘルメット着用努力義務化を推奨しています</p>
+        </button> -->
         <?php
         if (wp_is_mobile()) {
           $num = 3; //スマホの表示数(全件は-1)
@@ -349,7 +514,7 @@
       </div>
       <div class="div member-contents-button-wrap">
         <button onclick="location.href='/home/member'" class="more-button member-contents-button btn">
-          会員登録
+          会員申込
         </button>
       </div>
     </div>

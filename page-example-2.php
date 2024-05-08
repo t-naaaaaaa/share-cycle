@@ -23,9 +23,10 @@ get_header();
     <div class="sidebar-wrap">
       <div class="sidebar">
         <div class="sidebar-contents">
-          <div class="sidebar-contents-items">はじめに</div>
-          <div class="sidebar-contents-items">サービス概要</div>
-          <div class="sidebar-contents-items">導入事例・活用事例</div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-1/')); ?>">狭小地のポート化（マンション・軒先等）</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-2/')); ?>">官民連携</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-3/')); ?>">観光利用・フェリー連携</div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-4/')); ?>">複数事業者混在事例</a></div>
         </div>
       </div>
     </div>
@@ -44,31 +45,11 @@ get_header();
           OpenStreet株式会社とシナネンモビリティ&emsp;PLUS株式会社は、今後も朝霞市と官民連携し、市民が気軽にシェアサイクルを使える環境を整備し、利便性の向上に寄与するとともに、
           市職員の公務活用による環境保全や安全なまちづくりへ貢献していきます。
         </p>
-        <img src="<?php echo get_theme_file_uri('/img/example-2-1.png'); ?>" alt="" class="first-img" />
-        <img src="<?php echo get_theme_file_uri('/img/example-2-2.png'); ?>" alt="" class="first-img" />
+        <div class="first-img-wrap">
+          <img src="<?php echo get_theme_file_uri('/img/example-2-1.png'); ?>" alt="" class="first-img" />
+          <img src="<?php echo get_theme_file_uri('/img/example-2-2.png'); ?>" alt="" class="first-img" />
+        </div>
       </section>
-      <!-- <section class="second">
-            <h3 class="second-title">自治体向け</h3>
-            <p class="second-text text-1">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-            <p class="second-text text-2">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-          </section>
-          <section class="second second-end">
-            <h3 class="second-title">自治体向け</h3>
-            <p class="second-text text-1">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-            <p class="second-text text-2">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-          </section> -->
     </div>
   </div>
 </main>

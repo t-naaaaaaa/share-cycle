@@ -23,9 +23,10 @@ get_header();
     <div class="sidebar-wrap">
       <div class="sidebar">
         <div class="sidebar-contents">
-          <div class="sidebar-contents-items">はじめに</div>
-          <div class="sidebar-contents-items">サービス概要</div>
-          <div class="sidebar-contents-items">導入事例・活用事例</div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-1/')); ?>">狭小地のポート化（マンション・軒先等）</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-2/')); ?>">官民連携</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-3/')); ?>">観光利用・フェリー連携</div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-4/')); ?>">複数事業者混在事例</a></div>
         </div>
       </div>
     </div>
@@ -41,31 +42,11 @@ get_header();
           人気観光スポットの一つであるエンジェルロードは、特に注目されており、土庄港付近に設置された2箇所のステーションから多くの観光客が自転車で訪れます。<br />
           エンジェルロードからの帰路には、バスを利用するなど、シェアサイクルと公共交通機関を組み合わせた移動が可能で、訪れる人々に柔軟な移動プランを提供しています。
         </p>
-        <img src="<?php echo get_theme_file_uri('/img/example-3-1.png'); ?>" alt="" class="first-img" />
-        <img src="<?php echo get_theme_file_uri('/img/example-3-2.png'); ?>" alt="" class="first-img" />
+        <div class="first-img-wrap">
+          <img src="<?php echo get_theme_file_uri('/img/example-3-1.png'); ?>" alt="" class="first-img" />
+          <img src="<?php echo get_theme_file_uri('/img/example-3-2.png'); ?>" alt="" class="first-img" />
+        </div>
       </section>
-      <!-- <section class="second">
-            <h3 class="second-title">自治体向け</h3>
-            <p class="second-text text-1">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-            <p class="second-text text-2">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-          </section>
-          <section class="second second-end">
-            <h3 class="second-title">自治体向け</h3>
-            <p class="second-text text-1">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-            <p class="second-text text-2">
-              QUADRAは、オンラインマニュアルや講座系のサイトの
-              構築に最適化されたWordPressテーマです。深
-            </p>
-          </section> -->
     </div>
   </div>
 </main>

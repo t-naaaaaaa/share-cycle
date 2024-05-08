@@ -8,7 +8,7 @@ var list4 = document.getElementById("list4");
 
 // 画面幅が1225px以上かどうかをチェックする関数
 function isLargeScreen() {
-  return window.innerWidth >= 1280;
+  return window.innerWidth >= 1040;
 }
 
 // クリックイベント

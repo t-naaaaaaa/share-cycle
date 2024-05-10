@@ -69,7 +69,7 @@ get_header();
         <section class="first page-first page-first-end">
           <h2 class="first-title">2023年度組織図</h2>
           <div class="first-img association-map">
-            <img src="<?php echo get_theme_file_uri('/img/soshiki_2023_02.png'); ?>" alt="" class="first-img" />
+            <img src="<?php echo get_theme_file_uri('/img/soshiki_2024_05.jpg'); ?>" alt="" class="first-img" />
           </div>
         </section>
       </div>

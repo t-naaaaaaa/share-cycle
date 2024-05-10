@@ -57,7 +57,9 @@ get_header();
         </p>
         <p class="second-text text-2">
           また、導入要否の検討や合意形成の段階などでは、必要に応じて、他都市・事業者との意見交換を行うことも有効です。</p>
-        <img src="<?php echo get_theme_file_uri('/img/introduciton-img.png'); ?>" alt="" class="second-img" />
+        <img src="<?php echo get_theme_file_uri('/img/introduciton-img.png'); ?>" alt="" class="second-gov-img" />
+        <p class="second-text-3">出典<br />シェアサイクル事業の導入・運営のためのガイドライン<br />
+          国土交通省/自転車活用推進本部</p>
       </section>
       <!-- <section class="second">
         <h3 class="second-title">シェアサイクルは儲からない</h3>

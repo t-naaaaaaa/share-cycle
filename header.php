@@ -45,7 +45,7 @@
       <div class="header-logo-wrap">
         <div class="header-logo">
           <a href="<?php echo esc_url(home_url('/')); ?>" class="header-logo">
-            <img src="<?php echo get_theme_file_uri('/img/logo.png'); ?>" alt="ロゴ" class="header-logo-img" />
+            <img src="<?php echo get_theme_file_uri('/img/logo23.png'); ?>" alt="ロゴ" class="header-logo-img" />
             <p class="header-title">
               <span class="header-title-sub">一般社団法人</span>日本シェアサイクル協会
             </p>
@@ -68,7 +68,7 @@
             <button onclick="location.href='/home/member'" class="header-btn">
               会員登録
             </button>
-            <button onclick="location.href='/home/coming-soon'" class="header-btn">ログイン</button>
+            <button onclick="location.href='/home/login'" class="header-btn">ログイン</button>
           </div>
         </div>
       </div>

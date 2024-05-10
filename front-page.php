@@ -7,6 +7,7 @@
       </div>
     <?php endforeach; ?>
   </div>
+      <h2 class="img-catch">シェアサイクルがまちの未来をきり拓く</h2>
 </section>
 
 <section class="kv">
@@ -60,7 +61,7 @@
   <button onclick="location.href='/home/whats-share-cycle/'" class=" animation-button">
     <div class="what-wrap">
       <div class="whats-contents-img">
-        <img src="<?php echo get_theme_file_uri('/img/1.png'); ?>" alt="" class="whats-img" />
+        <img src="<?php echo get_theme_file_uri('/img/whats-share.png'); ?>" alt="" class="whats-img" />
       </div>
     </div>
   </button>

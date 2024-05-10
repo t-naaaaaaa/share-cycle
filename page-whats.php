@@ -38,13 +38,29 @@ get_header();
     <div class="section-wrap">
       <section class="first page-first">
         <h2 class="first-title">シェアサイクルとは</h2>
-        <!-- <p class="first-text">
-          自転車を共同利用する交通システムで、特にコミュニティサイクルは多数の自転車を都市内の各所に配置し、利用者はどこの拠点(ポート)からでも借り出して、好きなポートで返却ができる新たな都市交通手段です。現在、欧米を中心に世界中の500
-          都市以上で本格運営されています。<br />欧米では、都市(地区)平均
-          自転車5,000台、1,000ポート程度の規模で実施されています。最低限この規模でおこなうことが、この事業の利便性や採算性などの要点であると言えましょう。
-        </p> -->
-        <img src="<?php echo get_theme_file_uri('/img/whatxshare__detail.png'); ?>" alt="シェアサイクルの図" class="page-whats-contents-img">
+        <p class="first-whats-text">
+          シェアサイクルの概要<br />
+          自転車を用いたシェアサイクル＝新たな公共交通
+        </p>
       </section>
+      <section class="second">
+        <h3 class="second-title">公共交通の補強</h3>
+        <p class="second-text text-1">
+          自宅から駅やバス停まで<br />
+          駅やバス停から会社や学校まで<br />
+          日常の移動手段として
+        </p>
+      </section>
+      <section class="second">
+        <h3 class="second-title">名所をめぐる観光利用</h3>
+        <p class="second-text text-1">
+          観光名所から観光名所まで<br />
+          自由に行きたい場所をめぐる<br />
+          周遊のための移動手段として
+        </p>
+      </section>
+      <img src="<?php echo get_theme_file_uri('/img/2_02plus1mile.png'); ?>" alt="シェアサイクルの図" class="page-whats-contents-img">
+
       <section class="first move-first">
         <h2 class="first-title">シェアサイクルが持つ”メリット”</h2>
       </section>

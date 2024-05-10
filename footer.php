@@ -1,10 +1,14 @@
     <footer class="footer">
       <div class="footer-wrap">
         <div class="footer-title-wrap">
-          <h3 class="footer-title-sub">一般社団法人</h3>
-          <h2 class="footer-title">日本シェアサイクル協会</h2>
-          <p class="footer-tel">03-3663-6281</p>
-          <p class="footer-address">東京都中央区日本橋小網町7-2ぺんてるビル7階</p>
+          <div class="footer-logo-wrap"> <img src="<?php echo get_theme_file_uri('/img/logo23.png'); ?>" alt="ロゴ" class="footer-logo-img" />
+            <div class="footer-title-wrap2">
+              <h3 class="footer-title-sub">一般社団法人</h3>
+              <h2 class="footer-title">日本シェアサイクル協会</h2>
+            </div>
+          </div>
+          <p class="footer-tel">TEL&nbsp;&nbsp;03-3663-6281</p>
+          <p class="footer-address">〒103-0016&nbsp;&nbsp;東京都中央区日本橋小網町7-2ぺんてるビル7階</p>
         </div>
         <!-- <div class="footer-advertisement-wrap">
           <div class="footer-advertisement advertisement-1">出版物広告</div>
@@ -34,7 +38,7 @@
             <h3 class="footer-nav-main">運営サービス</h3>
             <ul class="footer-nav-list">
               <li class="footer-nav-item">
-                <a href="<?php echo esc_url(home_url('/home/coming-soon/')); ?>" class="footer-nav-link">会員専用ページ</a>
+                <a href="<?php echo esc_url(home_url('/home/login/')); ?>" class="footer-nav-link">会員専用ページ</a>
               </li>
               <li class="footer-nav-item">
                 <a href="<?php echo esc_url(home_url('/home/coming-soon/')); ?>" class="footer-nav-link">リンク集</a>

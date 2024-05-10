@@ -44,10 +44,10 @@ add_action('wp_enqueue_scripts', 'my_script_init');
 // functions.php
 $image_paths = [
   get_theme_file_uri('/img/Xshare-cycle-day.png'),
-    get_theme_file_uri('/img/docomo_big_new.jpg'),
-    get_theme_file_uri('/img/momochari_big_new.jpg'),
-    get_theme_file_uri('/img/Luup.jpeg'),
-    get_theme_file_uri('/img/saitama_new.png')
+  get_theme_file_uri('/img/docomo_big_new.jpg'),
+  get_theme_file_uri('/img/momochari_big_new.jpg'),
+  get_theme_file_uri('/img/Luup.jpeg'),
+  get_theme_file_uri('/img/saitama_new.png')
 ];
 update_option('my_theme_image_paths', $image_paths);
 
@@ -133,15 +133,50 @@ function wpcf7_file_load()
 add_action('template_redirect', 'wpcf7_file_load');
 
 //ウィジェット
-function sample_widgets(){
- register_sidebar(array(
- 'name' => '共通サイドバー',/* ←追加したいウィジェットの名前 */
- 'description' => 'サイドバーウィジェット',/* ←追加したいウィジェットの概要 */
- 'id' => 'wordpress-sidebar',/* ←追加したいウィジェットのID */
- 'before_widget' => '<div class="sidebar-contents">',/* ←追加したいウィジェットを囲う開始タグ */
- 'after_widget' => '</div>',/* ←追加したいウィジェットを囲う閉じタグ */
- 'before_title' => '<div class="sidebar-contents-items">',/* ←追加したいウィジェットのタイトルを囲う開始タグ */
- 'after_title' => '</div>'/* ←追加したいウィジェットのタイトルを囲う閉じタグ */
- ));
+function sample_widgets()
+{
+  register_sidebar(array(
+    'name' => '共通サイドバー',/* ←追加したいウィジェットの名前 */
+    'description' => 'サイドバーウィジェット',/* ←追加したいウィジェットの概要 */
+    'id' => 'wordpress-sidebar',/* ←追加したいウィジェットのID */
+    'before_widget' => '<div class="sidebar-contents">',/* ←追加したいウィジェットを囲う開始タグ */
+    'after_widget' => '</div>',/* ←追加したいウィジェットを囲う閉じタグ */
+    'before_title' => '<div class="sidebar-contents-items">',/* ←追加したいウィジェットのタイトルを囲う開始タグ */
+    'after_title' => '</div>'/* ←追加したいウィジェットのタイトルを囲う閉じタグ */
+  ));
 }
 add_action('widgets_init', 'sample_widgets');
+
+// WP-members
+add_action('wpmem_register_redirect', 'my_reg_redirect');
+function my_reg_redirect($fields)
+{
+  wp_redirect('https://gia-jsca.net/only-member-page/');
+  exit();
+}
+// WP-Membersのログイン後の遷移先を変更
+function theme_login_redirect($redirect_to, $user_id)
+{
+  return '/only-member-page/';
+}
+add_filter('wpmem_login_redirect', 'theme_login_redirect', 10, 2);
+// 管理バーを権限グループ毎に表示・非表示を切り替える
+function theme_show_admin_bar($content)
+{
+  // 管理者・編集者の権限グループの場合は表示
+  if (current_user_can('administrator') || current_user_can('editor')) {
+    return $content;
+    // 他の権限グループの場合は非表示
+  } else {
+    return false;
+  }
+}
+add_filter('show_admin_bar', 'theme_show_admin_bar');
+
+// WP-Membersのログイン画面のラベル変更
+function theme_wpmem_default_text($text)
+{
+  $text['login_username'] = 'ユーザー名';
+  return $text;
+}
+add_filter('wpmem_default_text', 'theme_wpmem_default_text');

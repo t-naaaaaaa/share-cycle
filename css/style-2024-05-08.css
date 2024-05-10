@@ -416,6 +416,18 @@ p {
   width: 100%; /* コンテナの幅を画像の数で割ったもの */
   flex: 0 0 100%;
   background-color: #f5f2f2;
+  position: relative;
+}
+
+.img-catch {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  font-size: 40px;
+  font-weight: bold;
+  bottom: 650px;
+  left: 150px;
+  color: #fff;
 }
 
 .image-item img {
@@ -702,6 +714,43 @@ p {
 .whats-second {
   margin-top: 16px;
 }
+.first-whats-text {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+@media screen and (min-width: 380px) {
+  .first-whats-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .first-whats-text {
+    font-size: 32px;
+  }
+}
+.page-whats-contents-img {
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .page-whats-contents-img {
+    padding: 48px;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .first-whats-text {
+    font-size: 28px;
+  }
+  .page-whats-contents-img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .first-whats-text {
+    font-size: 32px;
+  }
+}
 @media screen and (min-width: 1280px) {
   .whats-title-button {
     width: 800px;
@@ -776,7 +825,8 @@ table th,
 table td {
   padding: 1em 10px 1em 1em;
 }
-tbody th,table td {
+tbody th,
+table td {
   color: #000;
   font-weight: normal;
   font-size: 1.4rem;
@@ -1921,11 +1971,17 @@ table tr:last-child {
   padding: 24px 24px;
 }
 .footer-title {
-  font-size: 2.4rem;
+  font-size: 2.0rem;
   font-weight: 700;
   line-height: 35px;
   letter-spacing: 0em;
   text-align: left;
+}
+.footer-logo-img {
+  margin-top: 8px;
+  width: 48.8px;
+  height: 40px;
+  margin-right: 8px;
 }
 .footer-title-sub {
   font-size: 1.2rem;
@@ -1934,7 +1990,9 @@ table tr:last-child {
   letter-spacing: 0.02em;
   text-align: left;
 }
-
+.footer-logo-wrap{
+  display: flex;
+}
 .footer-tel {
   margin-top: 12px;
   font-size: 1rem;
@@ -2055,7 +2113,11 @@ table tr:last-child {
     margin-left: 102px;
   }
 }
-
+@media screen and (max-width: 350px) {
+    .footer-title {
+    font-size: 1.8rem;
+  }
+}
 @media screen and (min-width: 1600px) {
   .footer {
     padding: 96px 88px;
@@ -2292,7 +2354,6 @@ table tr:last-child {
 
 .first-img {
   margin-bottom: 10px;
-  width: 48%;
 }
 .first-img-wrap {
   display: flex;

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name:自治体向け
+Template Name::参入事業者向け
 */
 get_header();
 ?>

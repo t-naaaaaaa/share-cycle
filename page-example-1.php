@@ -23,10 +23,16 @@ get_header();
     <div class="sidebar-wrap">
       <div class="sidebar">
         <div class="sidebar-contents">
-          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-1/')); ?>">狭小地のポート化（マンション・軒先等）</a> </div>
-          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-2/')); ?>">官民連携</a> </div>
-          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-3/')); ?>">観光利用・フェリー連携</div>
-          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/example/example-4/')); ?>">複数事業者混在事例</a></div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/only-member/only-member-1')); ?>">総会資料</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/only-member/only-member-2')); ?>">2023年度事業方針、2023年度ロードマップ</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/only-member/only-member-3')); ?>">2024年度組織図</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/page-member-all')); ?>">役員、正会員、賛助会員、協力会員　名簿</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/only-member/only-member-4')); ?>">議事録</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/only-member/only-member-5')); ?>">研修会・勉強会等資料</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/only-member/only-member-6')); ?>">月間「自転車・バイク・自動車&nbsp;&nbsp;パーキングプレス」掲載記事</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/only-member/only-member-7')); ?>">出版物紹介</a> </div>
+          <div class="sidebar-contents-items"><a href="<?php echo esc_url(home_url('/home/only-member/only-member-8')); ?>">アンケート回答結果</a> </div>
+
         </div>
       </div>
     </div>

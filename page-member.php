@@ -43,7 +43,7 @@ get_header();
             入会のお申し込みは&nbsp;&nbsp;FAX&nbsp;&nbsp;郵送&nbsp;&nbsp;E-Mail&nbsp;&nbsp;でお願い申し上げます。
           </p>
           <p class="first-text">
-            <a href="http://share-cycle.local/wp-content/uploads/2024/04/membership.xlsx" download class="first-download-link">申込書をダウンロード</a>
+            <a href="https://www.gia-jsca.net/new2024/wp-content/uploads/2024/04/membership.xlsx" download class="first-download-link">申込書をダウンロード</a>
           </p>
           <img src="<?php echo get_theme_file_uri('/img/member-int.png'); ?>" alt="" class="first-img" />
           <div class="member-button-wrap">

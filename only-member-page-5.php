@@ -41,15 +41,13 @@ get_header();
         <h2 class="first-title login-first-title">研修会・勉強会等資料</h2>
 
 
-        <li class="only-member-li"><a class="only-member-a" href="kensyu_2023_02.shtml">2023年度　第1回 JSCA/JIC合同研修会<br></a></li>
-        <li class="only-member-li"><a class="only-member-a" href="kensyu_2023_01.shtml">2023年度　第1回 JSCA研修会<br></a></li>
-        <li class="only-member-li"><a class="only-member-a" href="kensyu_2022_01.shtml">2022年度　第1回 JSCA/JIC合同研修会<br></a></li>
-        <li class="only-member-li"><a class="only-member-a" href="kensyu_2021_01.shtml">2021年度　第1回 JSCA/JIC合同オンライン研修会<br></a></li>
-        <li class="only-member-li"><a class="only-member-a" href="kensyu_2019_02.shtml">2019年度　第2回 日本シェアサイクル協会 研修会<br></a></li>
-        <li class="only-member-li"><a class="only-member-a" href="kensyu_2019_01.shtml">2019年度　第1回 日本シェアサイクル協会 研修会<br></a></li>
+        <li class="only-member-li"><a class="only-member-a" href="<?php echo esc_url('/only-member-page/only-member-5/page-1') ?>">2023年度　第1回 JSCA/JIC合同研修会<br></a></li>
+        <li class="only-member-li"><a class="only-member-a" href="<?php echo esc_url('/only-member-page/only-member-5/page-2') ?>">2023年度　第1回 JSCA研修会<br></a></li>
+        <li class="only-member-li"><a class="only-member-a" href="<?php echo esc_url('/only-member-page/only-member-5/page-3') ?>">2022年度　第1回 JSCA/JIC合同研修会<br></a></li>
+        <li class="only-member-li"><a class="only-member-a" href="<?php echo esc_url('/only-member-page/only-member-5/page-4') ?>">2021年度　第1回 JSCA/JIC合同オンライン研修会<br></a></li>
+        <li class="only-member-li"><a class="only-member-a" href="<?php echo esc_url('/only-member-page/only-member-5/page-5') ?>">2019年度　第2回 日本シェアサイクル協会 研修会<br></a></li>
+        <li class="only-member-li"><a class="only-member-a" href="<?php echo esc_url('/only-member-page/only-member-5/page-6') ?>">2019年度　第1回 日本シェアサイクル協会 研修会<br></a></li>
         <li class="only-member-li"><a class="only-member-a" href="<?php echo esc_url(get_template_directory_uri() . '/member-pdf/pp/kensyu_2019.pdf'); ?>">参考：パーキングプレス2019年8月号　掲載記事<br></a></li>
-
-
         <h2 class="second-title">委員会等資料</h2>
 
         <li class="only-member-li li-2"><a class="only-member-a" href="<?php echo esc_url(get_template_directory_uri() . '/member-pdf/h28_uneiiinkai.pdf'); ?>">平成２８年度　第1回運営委員会資料<br><br>「コミュ二ティサイクルの利用促進に関する検討調査業務報告書」</a></li>

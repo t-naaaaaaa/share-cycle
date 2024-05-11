@@ -101,7 +101,7 @@
               <a href="<?php echo esc_url(home_url('/home/association')); ?>" class="header-nav-link">協会について</a>
             </li>
             <li class="nav_item pc-hidden"><a href="<?php echo esc_url(home_url('/home/member')); ?>">会員登録</a></li>
-            <li class="nav_item pc-hidden"><a href="<?php echo esc_url(home_url('/home/coming-soon')); ?>">ログイン</a></li>
+            <li class="nav_item pc-hidden"><a href="<?php echo esc_url(home_url('/home/login')); ?>">ログイン</a></li>
             <!-- <li class="nav_item pc-hidden"><a href="#">サイト内を検索</a></li> -->
           </ul>
         </nav>

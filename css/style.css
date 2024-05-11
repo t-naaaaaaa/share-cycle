@@ -3104,6 +3104,11 @@ li {
 .login-first-title{
 margin-bottom: 20px;
 }
+
+.member-6-img{
+  width: 300px;
+  margin-bottom: 24px;
+}
 @media screen and (min-width: 1040px) {
   .only-member-a{
   margin-top: 12px;

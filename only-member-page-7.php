@@ -46,14 +46,14 @@ get_header();
           <table>
             <thead>
               <tr>
-                <th colspan="2">What‘ｓシェアサイクル？</th>
+                <th class="first-title">What‘ｓシェアサイクル？</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <th>
-                  <p><a href="../img/bookinfo/what01.jpg" class="book_photo" rel="group1"><img src="/img/bookinfo/what01.jpg" alt="What‘ｓシェアサイクル？ 表紙" class="shadow"></a></p>
-                  <p><a href="../img/bookinfo/what02.jpg" class="book_photo" rel="group1"><img src="/img/bookinfo/what02.jpg" alt="What‘ｓシェアサイクル？ 目次" class="shadow"></a></p>
+                  <p><img src="<?php echo get_theme_file_uri('/member-pdf/member-img/what01.jpg'); ?>" alt="What‘ｓシェアサイクル？ 表紙" class="shadow"></img></p>
+                  <p><img src="<?php echo get_theme_file_uri('/member-pdf/member-img/what02.jpg'); ?>" alt="What‘ｓシェアサイクル？ 目次" class="shadow"></a></p>
                   <p>
                     判型・頁数<br>
                     A4判　63ページ<br>
@@ -63,75 +63,12 @@ get_header();
                     (送料別)<br>
                   </p>
                 </th>
-                <td>
-                  <dl>
-                    <dt>
-                      第一章
-                    </dt>
-                    <dd>
-                      <strong>シェアサイクルが都市にもたらす効果</strong><br>
-                      <span>04</span>自転車を用いたシェアサイクル＝新たな公共交通<br>
-                      <span>05</span>自転車活用のメリット　シェアサイクルのメリット<br>
-                      <span>06</span>シェアサイクル導入のプロセス<br>
-                    </dd>
-                  </dl>
-                  <dl>
-                    <dt>
-                      第二章
-                    </dt>
-                    <dd>
-                      <strong>シェアサイクルの種類と方式</strong><br>
-                      <span>10</span>シェアサイクルの種類<br>
-                    </dd>
-                  </dl>
-                  <dl>
-                    <dt>
-                      第三章
-                    </dt>
-                    <dd>
-                      <strong>世界・日本のシェアサイクル事例</strong><br>
-                      <span>14</span>世界のシェアサイクル事例<br>
-                      <span>28</span>日本のシェアサイクル事例<br>
-                    </dd>
-                  </dl>
-                  <dl>
-                    <dt>
-                      第四章
-                    </dt>
-                    <dd>
-                      <strong>シェアサイクル導入にかかる費用</strong><br>
-                      <span>52</span>自転車　ポート（ステーション）設備<br>
-                      <span></span>会員登録用および精査システム　運営・管理用ソフト<br>
-                      <span>53</span>運営・管理センターおよびコールセンター<br>
-                      <span>54</span>再配置　巡回メンテナンス<br>
-                    </dd>
-                  </dl>
-                  <dl>
-                    <dt>
-                      第五章
-                    </dt>
-                    <dd>
-                      <strong>シェアサイクルの課題と展望</strong><br>
-                      <span>56</span>シェアサイクル成功のキーファクター<br>
-                      <span>57</span>シェアサイクルの課題について<br>
-                    </dd>
-                  </dl>
-                  <dl>
-                    <dt>
-                      エッセイ
-                    </dt>
-                    <dd>
-                      <span>58</span>世界の大都市を変えたシェアサイクル<br>
-                    </dd>
-                  </dl>
-
-                  <div>
-                    <a href="../download/what_member.xlsx?2">お申込はこちら</a>
-                  </div>
-                </td>
               </tr>
             </tbody>
           </table>
+          <div class="first-text">
+            <a href="https://www.gia-jsca.net/new2024/wp-content/uploads/2024/05/what_member.xlsx" download class="first-download-link">申込書をダウンロード</a>
+          </div>
         </div>
         </p>
     </div>

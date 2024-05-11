@@ -42,10 +42,9 @@ get_header();
       <section class="first">
         <h2 class="first-title">月間「自転車・バイク・自動車&nbsp;&nbsp;パーキングプレス」掲載記事</h2>
         <p class="first-text"></p>
-        <h2 class="shadow">月刊「自転車・バイク・自動車駐車場　パーキングプレス」掲載記事</h2>
-        <div style="width: 300px; margin: 0 auto 40px;"><img src="../img/member/parkingpress.jpg" alt="自転車・バイク・自動車駐車場　パーキングプレス" width="100%"></div>
+        <div><img src="<?php echo get_theme_file_uri('/member-pdf/member-img/parkingpress.jpg') ?>" alt="自転車・バイク・自動車駐車場　パーキングプレス" class="member-6-img"></div>
         <ul id="file">
-          <li class="only-member-li"><a class="only-member-a" href="<?php echo esc_url(get_template_directory_uri() . '/member-pdf/pp/kensyu_2019.pdf'); ?>">一般社団法人 日本シェアサイクル協会　2019年度 第1回 研修会を開催<br></a></li>
+          <li class="only-member-li"><a class="only-member-a" href="<?php echo esc_url(get_template_directory_uri() . '/member-pdf/pp/kensyu_2019.pdf'); ?>">一般社団法人 日本シェアサイクル協会　2019年度 第1回 研修会</a></li>
         </ul>
 
         <div class="login-page-title"> シェアサイクルと日本のこれから</div>
